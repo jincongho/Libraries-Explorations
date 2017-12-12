@@ -1,0 +1,13 @@
+XGBoost Installation Guide
+
+https://xgboost.readthedocs.io/en/latest/build.html#building-on-osx
+git clone --recursive https://github.com/dmlc/xgboost
+cd xgboost; cp make/minimum.mk ./config.mk; make -j4
+cd python-package; sudo python setup.py install
+
+http://www.graphviz.org/Download_macos.php
+brew install graphviz
+pip install graphviz
+
+Transfer file on aws
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
